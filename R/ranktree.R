@@ -134,6 +134,7 @@
 #' 
 #' @import ConsRank
 #' @importFrom utils combn
+#' @importFrom methods is
 #' 
 #' 
 #' @export 
@@ -149,7 +150,20 @@ ranktree <-  function(Y,X,prunplot=FALSE,
   C=ncol(Y)
   if(is(control$num,"NULL")){control$num <- round(0.1*N)}
   namespreds=colnames(X)
-  nomin=ifelse(sapply(X,is.numeric),0,1) #0, numerical predictor, 1 nominal predictor
+  #nomin=ifelse(sapply(X,is.numeric),0,1) #0, numerical predictor, 1 nominal predictor
+  nomin=ifelse(sapply(X,function(i) is(i,"numeric")|is(i,"ordered")) ,0,1)
+  #aggiunto il 28/9/2021
+  # for (j in 1:C){
+  #   
+  #   if (is(predictors[,j],"numeric")|is(predictors[,j],"ordered")){
+  #     nomin[j] <- 0
+  #   } else {
+  #     nomin[j] <- 1
+  #   }
+  #   
+  # }
+  # #fine aggiunta
+  # 
   
   xID=seq(1,N)
   

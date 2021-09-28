@@ -95,7 +95,7 @@ cca <- function(X,k,control=ccacontrol(...), ...){
     out$Uprods <- res$Us2
     out$Uprodscca <- res$Ucca2
     out$consrankout <- res$Clusters
-    our$replications <- 1
+    out$replications <- 1
     
   }else{
     

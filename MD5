@@ -1,6 +1,6 @@
-0dc50f091f48131c5e47b89b8c62fe96 *DESCRIPTION
+e0c1361858f5800361a37fc48d51de01 *DESCRIPTION
 2d5f69cf003d360e19e1b157c24d64ea *NAMESPACE
-83273191a5d146138c86d32817ef8ff2 *R/cca.R
+883ab657aac616fd84bfeb9f06da9978 *R/cca.R
 b03f615cd398e6363cc25a101b695a14 *R/ccacontrol.R
 383291fa5949977fbb3046b82a6a9f23 *R/fuzzyconcordance.R
 9e6632b4f11d000d5fd941fb37b05c70 *R/getsubtree.R
@@ -10,7 +10,7 @@ bb450ca90337c3f65f5815906c603c07 *R/plot.ranktree.R
 2b14a660abc8e7099c014bcc6193440b *R/predict.ranktree.R
 7c2f9a3c62015f3038f4f47ed68cf980 *R/print.cca.R
 5523e5da7263c4b70b7dcf8adcc04813 *R/print.ranktree.R
-a66c32aaa68c99a0a3e7614640cb38ca *R/ranktree.R
+ff5e99dd3ea3af37626e49e99080a9a8 *R/ranktree.R
 6ac29325203e7b638f9c45bad351dcee *R/ranktreecontrol.R
 b89a27e0f6d6f6a606398971752b0339 *R/summary.cca.R
 87fe832afe6db26b893a464fc8f3bbc9 *R/summary.ranktree.R
